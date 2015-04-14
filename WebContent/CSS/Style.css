@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 
 #bodypagina {
-	background-image: url("../media/images/fundo.jpg");
+/*	background-image: url("../media/images/fundo.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -282,7 +282,7 @@
 #article {
 	float: left;
 	position: relative;
-	/*background-color:pink;*/
+	background-color:pink;
 	width: 70%;
 	margin: 10px;
 	border-width: 1px;
