@@ -3,21 +3,83 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:ui="http://java.sun.com/jsf/facelets">
-	 <head>
-      <link rel="stylesheet" type="text/css" href="../CSS/Style.css"/>
-     </head>
+<head>
+<link rel="stylesheet" type="text/css" href="../CSS/Style.css" />
+</head>
 <h:body>
 
 	<ui:composition template="../template/commonLayout.xhtml">
 
-	 <ui:define name="content">
-			
-			<img src="../media/images/torneiosueca.jpg" alt="torneio sueca"></img>
+		<ui:define name="content">
+			<article>
+				<p>A secçao de sueca da Associação Maria Laurinda vai realizar
+					um Torneio de Sueca no próximo dia 28 de Junho, domingo, na sede da
+					associação. O torneio ocorre como sequência dos nossos torneios
+					trimestrais.</p>
+				<p>Existem prémios para os primeiros 20 classificados e uma
+					excelente oportunidade para manter o convivio entre os membros
+					desta nossa associação</p>
+				<p>Também o número minimo de partidas está garantido: todas as
+					equipas fazem 5 partidas de 15 jogos.</p>
+				<p>Para fazer a inscrição deve entrar em contacto com os
+					elementos da organização, conforme consta no cartaz.</p>
+				<p>A receção das equipas é feita às 9h e o torneio começa às 10h
+					do dia 28 de junho. As inscrições podem ser feitas até dia 2 de
+					maio, mas não se esqueça que o número de vagas é limitado!</p>
+				<p>Clique no cartaz para mais informações, nomeadamente sobre
+					prémios e valor da inscrição.</p>
+			</article>
+
+			<a href="proximotorneio.xhtml"> <img
+				src="../media/images/torneiothumb.jpg"></img>
+			</a>
+			<table id="tabelavencedores" border="1">
+				<thead>
+					<tr>
+						<th>Resultados do ultimo torneio</th>
+						<th>Capitão de equipa</th>
+						<th>Parceiro</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>1º Lugar</td>
+						<td>Rodrigo Augusto</td>
+						<td>Carolina Alves</td>
+					</tr>
+					<tr>
+						<td>2º Lugar</td>
+						<td>José Ramos</td>
+						<td>Margarida Ferreira</td>
+					</tr>
+					<tr>
+						<td>3º Lugar</td>
+						<td>Pedro Moreira</td>
+						<td>Paulo Costa</td>
+					</tr>
+					<tr>
+						<td>4º Lugar</td>
+						<td>Joana Seixas</td>
+						<td>Marta Santos</td>
+					</tr>
+					<tr>
+						<td>5º Lugar</td>
+						<td>Alberto Rodrigues</td>
+						<td>Mafalda Monteiro</td>
+					</tr>
+				</tbody>
+			</table>
 		</ui:define>
 
-		
+
 	</ui:composition>
 
 </h:body>
 
 </html>
+
+
+
+
+
+
