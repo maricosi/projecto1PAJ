@@ -29,9 +29,9 @@
 	display: block;
 	font-size: 3em;
 	-webkit-margin-before: 100px;
-	-webkit-margin-after : 0.67em;
-	-webkit-margin-start : 0px;
-	-webkit-margin-end : 0px;
+	-webkit-margin-after: 0.67em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
 	font-weight: bold;
 	color: black;
 }
@@ -281,4 +281,16 @@
 	text-align: center;
 	vertical-align: middle;
 	font-weight: normal
+}
+
+#tabela1 {
+	align: "center";
+	border-color: DarkCyan;
+	border-width: thick;
+	border-style: solid
+	
+}
+#imagens{
+	max-width: 70%;
+
 }
